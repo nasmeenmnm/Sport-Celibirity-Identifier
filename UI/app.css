@@ -1,0 +1,85 @@
+.card-wrapper {
+    margin: 5% 0;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#resultHolder {
+  display: flex;
+  flex-wrap: wrap;  /* Allows images to wrap to the next row if necessary */
+  justify-content: flex-start; /* Align images to the left */
+  gap: 10px; /* Add some space between the images */
+}
+
+#resultHolder img {
+  padding-left: 100px;
+  width: 350px; /* Set the desired image width */
+  height: auto;
+}
+.player-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.player-img {
+  width: 350px; /* Adjust image size */
+  height: 350px; /* Keep images square */
+  object-fit: cover; /* Ensure image fills the space */
+  border-radius: 10px; /* Optional: Adds rounded corners to images */
+}
+
+.player-name {
+  font-size: 1.5em; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  margin-top: 10px; /* Space between image and name */
+  text-align: center;
+}
